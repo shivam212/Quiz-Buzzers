@@ -1,0 +1,75 @@
+*{
+	margin : 0;
+	padding :0;
+	box-sizing: border-box;
+}
+.head{
+	height: 100vh;
+ 	/*display: flex; */
+	/*flex-direction: column;*/
+	/*justify-content: space-evenly;*/
+	align-content: center;
+	font-family: "Oswald", sans-serif;
+}
+.top{
+	height: 10%;
+	background:lightgreen;
+	display: flex;
+	flex:1;
+	align-content: center;
+	justify-content: center;
+
+}
+.Teams{
+	/*position: absolute;*/
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	justify-content: center;
+}
+.Scores{
+	height: 80%;
+	background:lightcoral;
+	display: flex;
+	flex:1;
+	flex-direction: column;
+	align-content: center;
+	left: 50%;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10;
+}
+.Selector{
+	height: 80%;
+	background:lightcoral;
+	display: flex;
+	flex:1;
+	flex-direction: column;
+	align-content: center;
+	left: 50%;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10;
+}
+
+.Selector button, .Teams button
+{
+	/*position: absolute;*/
+	color: white;
+	width:  80%;
+	height: 50%;
+	background: none;
+	border: 2px solid white;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 20px;
+	transition: all 0.5s ease;
+}
+.Selector button, .Teams button:hover{
+	color : pink;
+	background : black;
+}
+.space{
+	height: 10%;
+	background:lightgreen;
+}
